@@ -79,7 +79,6 @@ The dataset includes both categorical and numerical employee attributes such as:
 
 ## 🚀 Next Steps
 - Overlay **attrition rates per cluster** to validate high-risk groups  
-- Explore alternative clustering (e.g., k-prototypes, Gower distance) for mixed data  
 - Build predictive models (Logistic Regression, Random Forest, XGBoost) using selected features  
 - Provide HR recommendations for targeted retention strategies  
 
