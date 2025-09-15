@@ -42,16 +42,17 @@ The dataset includes both categorical and numerical employee attributes such as:
 
 ### 3. Initial KMeans Clustering
 - Applied KMeans to scaled features
-- Found 4 clusters using elbow method (inertia values) and silhouette scores, but Department data strongly influenced the cluster formation and overshadowed more nuanced employee characteristics, so I decided to drop the Department data from KMean model.
+- Found 4 clusters using elbow method (inertia values) and silhouette scores.
 
 ### 4. Dimensionality Reduction with PCA
 - Used PCA to reduce dimensionality for visualization
-- Observed PC2 was almost entirely explained by Department
+- Observed PC2 was almost entirely explained by Department. The Department data strongly influenced the cluster formation and overshadowed more nuanced employee characteristics, so I decided to drop the Department data from KMean model.
 - Decision: rerun KMeans without Department to uncover **behavioral/attrition-related** patterns  
   ![PCA Department Overlay](output/department.png)
 
 ### 5. Refined KMeans Clustering
 - Re-ran clustering without Department
+- Used elbow method and silhouette scores to come up with 4 clusters and visualie using PCA
 - Interpreted 4 distinct employee clusters:
   - **Cluster 0 – Senior & Stable**: Older, higher-level, higher income, stable satisfaction  
   - **Cluster 1 – Early Career but Satisfied**: Younger, entry-level, lower income, but happier  
