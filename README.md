@@ -48,7 +48,7 @@ The dataset includes both categorical and numerical employee attributes such as:
 - Used PCA to reduce dimensionality for visualization
 - Observed PC2 was almost entirely explained by Department
 - Decision: rerun KMeans without Department to uncover **behavioral/attrition-related** patterns  
-  ![PCA Department Overlay](outputs/pca_department.png)
+  ![PCA Department Overlay](output/pca_department.png)
 
 ### 5. Refined KMeans Clustering
 - Re-ran clustering without Department
@@ -57,7 +57,7 @@ The dataset includes both categorical and numerical employee attributes such as:
   - **Cluster 1 – Early Career but Satisfied**: Younger, entry-level, lower income, but happier  
   - **Cluster 2 – Commute Risk Group**: Longer commutes, average pay, lower satisfaction  
   - **Cluster 3 – Disengaged & Dissatisfied**: Younger, lower-level, least satisfied (highest attrition risk)  
-  ![Cluster Heatmap](outputs/cluster_heatmap.png)
+  ![Cluster Heatmap](output/cluster_heatmap.png)
 
 ---
 
