@@ -42,13 +42,13 @@ The dataset includes both categorical and numerical employee attributes such as:
 
 ### 3. Initial KMeans Clustering
 - Applied KMeans to scaled features
-- Found clusters, but **Department one-hot columns dominated clustering**
+- Found 4 clusters using elbow method (inertia values) and silhouette scores, but Department data strongly influenced the cluster formation and overshadowed more nuanced employee characteristics, so I decided to drop the Department data from KMean model.
 
 ### 4. Dimensionality Reduction with PCA
 - Used PCA to reduce dimensionality for visualization
 - Observed PC2 was almost entirely explained by Department
 - Decision: rerun KMeans without Department to uncover **behavioral/attrition-related** patterns  
-  ![PCA Department Overlay](output/pca_department.png)
+  ![PCA Department Overlay](output/department.png)
 
 ### 5. Refined KMeans Clustering
 - Re-ran clustering without Department
@@ -57,7 +57,7 @@ The dataset includes both categorical and numerical employee attributes such as:
   - **Cluster 1 – Early Career but Satisfied**: Younger, entry-level, lower income, but happier  
   - **Cluster 2 – Commute Risk Group**: Longer commutes, average pay, lower satisfaction  
   - **Cluster 3 – Disengaged & Dissatisfied**: Younger, lower-level, least satisfied (highest attrition risk)  
-  ![Cluster Heatmap](output/cluster_heatmap.png)
+  ![Cluster Heatmap](output/kmean4_v2.png)
 
 ---
 
