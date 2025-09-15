@@ -4,7 +4,7 @@ This project will takes a two-step approach to understand and address attrition 
 # HR Attrition Analysis & Clustering Project
 
 ## 📌 Overview
-This project explores an HR dataset to identify key factors associated with employee attrition.  
+This project explores an HR dataset (provided in the repository) to identify key factors associated with employee attrition.  
 The workflow includes:
 - Data exploration & cleaning
 - Feature selection using **Chi-Square** (categorical features) and **ANOVA** (numerical features)
