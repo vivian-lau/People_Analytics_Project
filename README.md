@@ -34,7 +34,7 @@ The dataset includes both categorical and numerical employee attributes such as:
 ### 2. Feature Selection
 - **Chi-Square Test**: evaluated dependence between categorical features and attrition  
   - Example: `Department` was significant, `Gender` was not  
-  ![Chi-Square Feature Importance](outputs/chi_square.png)
+  ![Chi-Square Feature Importance](output/chi_square.png)
 
 - **ANOVA (F-test)**: tested differences in numeric features across attrition groups  
   - Key predictors: `JobLevel`, `MonthlyIncome`, `Age`, `JobSatisfaction`, `DistanceFromHome`  
