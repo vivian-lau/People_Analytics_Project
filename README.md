@@ -38,7 +38,7 @@ The dataset includes both categorical and numerical employee attributes such as:
 
 - **ANOVA (F-test)**: tested differences in numeric features across attrition groups  
   - Key predictors: `JobLevel`, `MonthlyIncome`, `Age`, `JobSatisfaction`, `DistanceFromHome`  
-  ![ANOVA F-scores]([anova.png])
+  ![ANOVA F-scores](output/anova.png)
 
 ### 3. Initial KMeans Clustering
 - Applied KMeans to scaled features
