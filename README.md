@@ -1,5 +1,5 @@
 # People_Analytics_Project
-This project will takes a two-step approach to understand and address attrition by perform Employee Segmentation (Clustering) and Attrition Prediction (Classification). This combination helps HR teams not only identify who is at risk but also why certain groups are more vulnerable, enabling targeted interventions.
+This project will use a two-step approach to analyze and address employee attrition. First, Employee Segmentation (Clustering) will group employees with similar characteristics. Then, Attrition Prediction (Classification) will identify which employees are most at risk of leaving. Together, these methods help HR teams understand not just who is at risk, but also why certain groups are more vulnerable, enabling more targeted and effective interventions.
 
 # HR Attrition Analysis & Clustering Project
 
