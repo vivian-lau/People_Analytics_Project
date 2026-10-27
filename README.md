@@ -1,5 +1,5 @@
-# Problem Statement
-This project will use a two-step approach to analyze and address employee attrition. First, Employee Segmentation (Clustering) will group employees with similar characteristics. Then, Attrition Prediction (Classification) will identify which employees are most at risk of leaving. Together, these methods help HR teams understand not just who is at risk, but also why certain groups are more vulnerable, enabling more targeted and effective interventions.
+# Business Problem Statement
+Employee turnover is expensive, and HR typically finds out only after someone resigns. This project helps HR teams identify which employee groups are most vulnerable to attrition and what is driving it, so retention efforts can be targeted to prevent turnover. I will use a two-step approach to analyze and address employee attrition. First, Employee Segmentation (Clustering) will group employees with similar characteristics. Then, Attrition Prediction (Classification) will identify which employees are most at risk of leaving. Together, these methods help HR teams understand not just who is at risk, but also why certain groups are more vulnerable, enabling more targeted and effective interventions.
 
 
 # Model Outcomes and Predictions: 
